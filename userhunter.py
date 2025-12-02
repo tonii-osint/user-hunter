@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import requests
 import sys
 import signal
@@ -85,4 +82,5 @@ def main():
     print(f"\n{Colors.CYAN}{Colors.BOLD}[*] Búsqueda finalizada. Se han encontrado {found_count} perfiles para el usuario '{username}'.{Colors.RESET}")
 
 if __name__ == "__main__":
+
     main()
