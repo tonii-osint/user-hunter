@@ -1,4 +1,3 @@
-#!/bin/bash
 echo -e "\e[34m[*] Iniciando el instalador de User Hunter...\e[0m"
 
 if command -v apt-get &> /dev/null; then
